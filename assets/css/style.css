@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Lcd;
+    src: url('../font/LCDLight.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+body {
+   background-image: url(../images/background.png);
+}
+
+
+.center {
+    text-align: center !important;
+}
+
+#cronometro {
+    padding: 15% 0;
+    font-family: 'Lcd', sans-serif;
+    font-size: 5.8em;
+    font-weight: 500;
+}
+
+#tio-sam {
+    position: absolute;
+    display: block;
+    text-align: left;
+    z-index: 2;
+    margin: -380px 1425px;
+}
+
+@media screen and (max-width: 1024px) {
+    #logo img{
+        width: 60%;
+    }
+    
+    #cronometro {
+        font-size: 3.8em;
+    }
+    
+    #tio-sam {    
+        position: absolute;
+        display: block;
+        z-index: 2;
+        margin:0 30px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #tio-sam img {
+        width: 60%;
+    }
+}
